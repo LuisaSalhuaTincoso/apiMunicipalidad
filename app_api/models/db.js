@@ -3,7 +3,7 @@ var mongoose = require( 'mongoose' );
 require('./message');
 
 
-var dbURI = 'mongodb://luma:Nankurunaisa17@ds255265.mlab.com:55265/municipalidad';
+var dbURI = 'mongodb://luma:nanku@ds255265.mlab.com:55265/municipalidad';
 //mongodb://<dbuser>:<dbpassword>@ds255265.mlab.com:55265/municipalidad
 
 if (process.env.NODE_ENV === 'production') {
